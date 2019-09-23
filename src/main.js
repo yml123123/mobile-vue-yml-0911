@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import { Button, NavBar, Field, Cell, CellGroup, Toast, Loading, Tabbar, TabbarItem } from 'vant'
+import { Button, NavBar, Field, Cell, CellGroup, Toast, Loading, Tabbar, TabbarItem, Tab, Tabs } from 'vant'
 
 import {
   ValidationProvider,
@@ -39,6 +39,8 @@ Vue.use(Button)
   .use(Loading)
   .use(Tabbar)
   .use(TabbarItem)
+  .use(Tab)
+  .use(Tabs)
 
 Vue.config.productionTip = false
 new Vue({
